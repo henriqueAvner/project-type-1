@@ -44,11 +44,12 @@ header {
   display: flex;
   flex-direction: column;
   grid-template-columns: 1fr 2fr;
-  border: solid red 5px;
-  width: 100px;
+  width: 100%;
+  align-items: flex-end;
   text-align: center;
 }
 aside {
+  border: solid red 5px;
   width: 100px;
   height: 500px;
   flex-direction: column;
