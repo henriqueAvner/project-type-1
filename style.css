@@ -1,0 +1,43 @@
+header {
+border: solid black 1px;
+display: flex;
+}
+
+#title {
+border: solid black 1px;
+display: flex;
+}
+
+#navigation {
+border: solid black 1px;
+display: flex;
+gap: 10px;
+
+}
+
+#main-content {
+border: solid black 1px;
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+}
+
+.section-class{
+    border: solid green 2px;
+    display: flex;
+    flex-direction: row;
+
+    
+}
+.content {
+    display: flex;
+    flex-direction:column;
+
+}
+
+
+#aside-content{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
