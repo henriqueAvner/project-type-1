@@ -12,4 +12,17 @@ const getRandomUser = async () => {
   }
 };
 
+const handleNewUserClick = () => {
+  const generateUserButton = document.querySelector("button");
+  const userImageDiv = document.querySelector(".random-user-image");
+
+  generateUserButton.addEventListener("click", () => {
+    userImageDiv.style.backgroundImage = `${url(
+      " + generateUserButton.randomUserImage + "
+    )}`;
+  });
+};
+
+handleNewUserClick();
+
 export { getRandomUser };
