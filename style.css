@@ -1,7 +1,7 @@
 header {
-border: solid #000000 1px;
-display: flex;
-justify-content: center;
+  border: solid #000000 1px;
+  display: flex;
+  justify-content: center;
 }
 
 #title {
@@ -10,33 +10,30 @@ justify-content: center;
 }
 
 #navigation {
-border: solid black 1px;
-display: flex;
-gap: 10px;
-justify-content: space-evenly;
-
+  border: solid black 1px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
 }
 
-.sub-title{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.sub-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 #main-content {
-border: solid black 1px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-
+  border: solid black 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.section-class{
-    border: solid green 2px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
- 
+.section-class {
+  border: solid green 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 .content {
   display: flex;
@@ -44,19 +41,16 @@ justify-content: center;
 }
 
 #aside-content {
-    
-    display: flex;
-    flex-direction: column;
-    grid-template-columns: 1fr 2fr;
-    border: solid red 5px;
-    width: 100px;
-    text-align: center;
-    
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: 1fr 2fr;
+  border: solid red 5px;
+  width: 100px;
+  text-align: center;
 }
-aside{
-    width: 100px;
-    height: 500px;
-    flex-direction: column;
-    overflow: auto;
-    
+aside {
+  width: 100px;
+  height: 500px;
+  flex-direction: column;
+  overflow: auto;
 }
