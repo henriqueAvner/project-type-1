@@ -1,1 +1,3 @@
-const newRandomUser = fetch('https://randomuser.me/api').then((res) => {console.log(res)}); 
+const getRandomUser = () => {
+  const newUser = fetch('https://randomuser.me/api')
+}
