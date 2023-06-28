@@ -10,7 +10,7 @@ header {
 }
 
 #navigation {
-  border: solid black 1px;
+  border: solid rgb(20, 101, 37) 1px;
   display: flex;
   gap: 10px;
   justify-content: space-evenly;
