@@ -5,18 +5,11 @@ const getRandomUser = async () => {
     const user = data.results[0];
     const randomUserName = `${user.name.first} ${user.name.last}`;
     const randomUserImage = user.picture.large;
-    userInfo = { randomUserName, randomUserImage };
+    const userInfo = { randomUserName, randomUserImage };
+    return userInfo;
   } catch (error) {
     console.log(error);
   }
 };
 
-(async () => {
-  try {
-    await getRandomUser();
-    console.log(userInfo);
-    module.exports = userInfo;
-  } catch (error) {
-    console.log(error);
-  }
-})();
+export { getRandomUser };
